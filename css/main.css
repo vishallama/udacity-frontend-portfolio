@@ -21,7 +21,11 @@ nav, a, button {
 }
 
 #logo-name {
-    border-bottom: 3px solid;
+    border-bottom: 3px solid #bcbbbb;
+}
+
+#portfolio {
+    color: #bcbbbb;
 }
 
 .row {
@@ -39,5 +43,8 @@ a {
     }
     .col-sm-10 {
         text-align: right;
+    }
+    #portfolio h3 {
+        text-align: left;
     }
 }
