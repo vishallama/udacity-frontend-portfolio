@@ -46,11 +46,15 @@ figcaption h5 {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-    .container {
-        max-width: 768px;
-    }
     .col-sm-10 {
         text-align: right;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container {
+        max-width: 992px;
     }
     #portfolio h3 {
         text-align: left;

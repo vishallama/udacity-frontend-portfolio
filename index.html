@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon"  href="favicon-96x96.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <title>Vishal Lama | Portfolio</title>
 </head>
 <body>
@@ -62,6 +63,10 @@
                 <figure>
                     <img class="img-responsive center-block"
                          src="images/landscape-300x300low.jpg"
+                         srcset="images/landscape-300x300low.jpg 300w,
+                                 images/landscape-800x400medium.jpg 800w,
+                                 images/landscape-1200x600high.jpg 1200w"
+                         sizes="(min-width: 1px) 100vw"
                          alt="Landscape">
                 </figure>
             </div>
@@ -86,7 +91,8 @@
                         <h3 class="text-center text-uppercase">Camera Lens</h3>
                     </figcaption>
                 </figure>
-            </div><div class="col-sm-6 col-md-4 col-lg-4">
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
                 <figure>
                     <a href="https://github.com/vishallama"
                        target="_blank">
@@ -98,7 +104,8 @@
                         <h3 class="text-center text-uppercase">Compass</h3>
                     </figcaption>
                 </figure>
-            </div><div class="col-sm-6 col-md-4 col-lg-4">
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
                 <figure>
                     <a href="https://github.com/vishallama"
                        target="_blank">
@@ -110,7 +117,8 @@
                         <h3 class="text-center text-uppercase">Dawn</h3>
                     </figcaption>
                 </figure>
-            </div><div class="col-sm-6 col-md-4 col-lg-4">
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
                 <figure>
                     <a href="https://github.com/vishallama"
                        target="_blank">
@@ -122,19 +130,8 @@
                         <h3 class="text-center text-uppercase">iPad</h3>
                     </figcaption>
                 </figure>
-            </div><div class="col-sm-6 col-md-4 col-lg-4">
-                <figure>
-                    <a href="https://github.com/vishallama"
-                       target="_blank">
-                        <img class="img-responsive center-block"
-                             src="images/mockup-300x200low.jpg"
-                             alt="Mockup">
-                    </a>
-                    <figcaption>
-                        <h3 class="text-center text-uppercase">Mockup</h3>
-                    </figcaption>
-                </figure>
-            </div><div class="col-sm-6 col-md-4 col-lg-4">
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
                 <figure>
                     <a href="https://github.com/vishallama"
                        target="_blank">
@@ -147,19 +144,33 @@
                     </figcaption>
                 </figure>
             </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+                <figure>
+                    <a href="https://github.com/vishallama"
+                       target="_blank">
+                        <img class="img-responsive center-block"
+                             src="images/mockup-300x200low.jpg"
+                             alt="Mockup">
+                    </a>
+                    <figcaption>
+                        <h3 class="text-center text-uppercase">Mockup</h3>
+                    </figcaption>
+                </figure>
+            </div>
         </div>
         <footer>
             <div class="row">
                 <div class="col-sm-12">
+                    <i class="fa fa-twitter"></i>
                     <p class="text-center">
                         © 2015 Vishal Lama
                     </p>
                 </div>
             </div>
         </footer>
+    </div>
     <!-- Load Query and Bootstrap javascript files -->
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    </div>
 </body>
 </html>
