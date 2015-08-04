@@ -20,7 +20,7 @@ nav, a, button {
     min-height: 48px;
 }
 
-#logo-name {
+#logo-border {
     border-bottom: 3px solid #bcbbbb;
 }
 
@@ -29,7 +29,8 @@ nav, a, button {
 }
 
 .row {
-    padding: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
 }
 
 a {
@@ -40,19 +41,19 @@ figcaption h3 {
     color: #747704;
 }
 
-figcaption h5 {
-    color: #bcbbbb;
+img {
+    transition: width 0.5s;
 }
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
+@media screen and (min-width : 768px) {
     .col-sm-10 {
         text-align: right;
     }
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
     .container {
         max-width: 992px;
     }
