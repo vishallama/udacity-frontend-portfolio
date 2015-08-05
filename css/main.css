@@ -32,7 +32,7 @@ nav, a, button {
     border-bottom: 3px solid #bcbbbb;
 }
 
-#portfolio {
+#featured-work {
     color: #bcbbbb;
 }
 
@@ -51,13 +51,15 @@ figcaption h3 {
     color: #747704;
 }
 
-img {
-    transition: width 0.5s;
-}
-
 /* Prevent the size of the logo image from becoming too big */
 #logo img {
     max-width: 30%;
+}
+
+/* Add css effects to images */
+.portfolio img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease 0s;
 }
 
 /** Media queries **/
@@ -77,7 +79,7 @@ img {
     .container {
         max-width: 992px;
     }
-    #portfolio h3 {
+    #featured-work h3 {
         text-align: left;
     }
 }
