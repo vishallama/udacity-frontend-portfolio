@@ -36,10 +36,15 @@ nav, a, button {
     color: #bcbbbb;
 }
 
-/* Add extra padding */
+/* Add extra padding between rows */
 .row {
-   padding-top: 20px;
-   padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Extend bottom margin of each column (except the last column) in a row */
+[class*="col-"]:not(:last-child) {
+    margin-bottom: 30px;
 }
 
 /* Disable text decoration when hovering over links */
@@ -79,7 +84,7 @@ figcaption h3 {
     .container {
         max-width: 992px;
     }
-    #featured-work h3 {
+    #featured-work h2 {
         text-align: left;
     }
 }
