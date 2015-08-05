@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="favicon-96x96.png">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
     <title>Vishal Lama | Portfolio</title>
 </head>
 <body>
@@ -41,14 +42,17 @@
             </div>
         </div>
     </nav>
-
     <!-- Container to hold the main content -->
-    <div class="container" role="presentation">
-        <div class="row">
+    <main class="container" role="presentation">
+        <section class="row" id="logo">
             <div class="col-sm-2">
                 <figure>
                     <img class="img-responsive center-block"
-                         src="images/udacity-logo-svg-300x300small.png"
+                         src="images/udacity-logo-300x300small.png"
+                         sizes="(max-width: 767px) 100vw,
+                                (min-width: 768px) 16vw"
+                         srcset="images/udacity-logo-300x300small.png 300w,
+                                 images/udacity-logo-600x600medium.png 600w"
                          alt="Logo">
                 </figure>
             </div>
@@ -56,10 +60,10 @@
                 <h1>Vishal Lama</h1>
                 <h4>Frontend Ninja</h4>
             </div>
-        </div>
+        </section>
         <div class="col-sm-12" id="logo-border">
         </div>
-        <div class="row" id="about">
+        <section class="row" id="about">
             <div class="col-sm-12">
                 <figure>
                     <img class="img-responsive center-block"
@@ -72,15 +76,15 @@
                          alt="Nature">
                 </figure>
             </div>
-        </div>
-        <div class="row" id="portfolio">
+        </section>
+        <section class="row" id="portfolio">
             <div class="col-sm-12 text-center">
                 <h3>
                     Featured Work
                 </h3>
             </div>
-        </div>
-        <div class="row">
+        </section>
+        <section class="row">
             <div class="col-md-6 col-lg-4">
                 <figure>
                     <a href="https://github.com/vishallama"
@@ -203,13 +207,13 @@
                     </figcaption>
                 </figure>
             </div>
-        </div>
-    </div>
-        <footer id="contact">
-            <p class="text-center">
-                © 2015 Vishal Lama
-            </p>
-        </footer>
+        </section>
+    </main>
+    <footer id="contact">
+        <p class="text-center">
+            © 2015 Vishal Lama
+        </p>
+    </footer>
     <!-- Load Query and Bootstrap javascript files -->
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
