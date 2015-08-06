@@ -67,6 +67,14 @@ figcaption h3 {
     transition: all 0.5s ease 0s;
 }
 
+footer a {
+    margin: 5px;
+}
+
+footer h4 {
+    font-weight: 300;
+}
+
 /** Media queries **/
 
 /* Small Devices, Tablets */
