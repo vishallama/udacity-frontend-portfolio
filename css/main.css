@@ -18,20 +18,33 @@ video {
     align-content: center;
 }
 
-/* Fix minimum width and height for very small screens */
+/* Disable text decoration when hovering over links */
+a {
+    text-decoration: none !important;
+}
+
+/* Fix minimum width and height for these elements for very small screens */
 nav, a, button {
     min-width: 48px;
     min-height: 48px;
 }
 
+/* Prevent the size of the logo image from becoming too big */
+.logo img {
+    max-width: 30%;
+}
+
+/* Use a lighter weight */
 .logo h1, h3 {
     font-weight: 300;
 }
 
+/* Border styling */
 .logo-border {
     border-bottom: 3px solid #bcbbbb;
 }
 
+/* Add color to text according to specification */
 #featured-work {
     color: #bcbbbb;
 }
@@ -47,18 +60,9 @@ nav, a, button {
     margin-bottom: 30px;
 }
 
-/* Disable text decoration when hovering over links */
-a {
-    text-decoration: none !important;
-}
-
+/* Add color to figcaption according to specification */
 figcaption h3 {
     color: #747704;
-}
-
-/* Prevent the size of the logo image from becoming too big */
-.logo img {
-    max-width: 30%;
 }
 
 /* Add css effects to images */
@@ -67,6 +71,7 @@ figcaption h3 {
     transition: all 0.5s ease 0s;
 }
 
+/* Footer styles */
 footer a {
     margin: 5px;
 }
