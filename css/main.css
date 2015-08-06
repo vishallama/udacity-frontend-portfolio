@@ -1,6 +1,7 @@
 /* Main css file */
 
-body, html {
+body,
+html {
     margin: 0;
     /* Add extra padding to top to align with the top navbar */
     padding-top: 50px;
@@ -24,7 +25,9 @@ a {
 }
 
 /* Fix minimum width and height for these elements for very small screens */
-nav, a, button {
+nav,
+a,
+button {
     min-width: 48px;
     min-height: 48px;
 }
