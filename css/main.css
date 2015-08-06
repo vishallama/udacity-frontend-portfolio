@@ -72,12 +72,16 @@ figcaption h3 {
 }
 
 /* Footer styles */
+footer {
+    padding: 20px;
+}
+
 footer a {
     margin: 5px;
 }
 
 footer h4 {
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /** Media queries **/
