@@ -74,6 +74,11 @@ figcaption h3 {
     transition: all 0.5s ease 0s;
 }
 
+/* Modals */
+.modal-header {
+    background: #bbb;
+}
+
 .sharp-outline {
     background: none;
     color: #09c;
