@@ -74,6 +74,12 @@ figcaption h3 {
     transition: all 0.5s ease 0s;
 }
 
+.sharp-outline {
+    background: none;
+    color: #09c;
+    border: 2px solid #09c;
+    border-radius: 0;
+}
 
 /* Footer */
 footer {
