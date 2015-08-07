@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="IE=Edge">
-    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Vishal Lama, Udacity, Portfolio, Responsive, Bootstrap">
     <!-- Custom social media icons -->
     <link rel="stylesheet"
@@ -24,39 +24,40 @@
     <!-- Top navigation bar -->
     <!-- Most of the navbar code taken from the Bootstrap website:
          http://getbootstrap.com/components/#navbar -->
-    <nav id="myNavBar"
-         class="navbar navbar-default navbar-inverse navbar-fixed-top"
-         role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle"
-                        data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Vishal Lama</a>
+    <div class="container-fluid">
+        <nav id="myNavBar"
+             class="navbar navbar-default navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle"
+                            data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Vishal Lama</a>
+                </div>
+                <!-- Add links to navigation bar for toggling -->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#featured-work">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#connect">Connect</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <!-- Add links to navigation bar for toggling -->
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="nav navbar-nav">
-                    <li class="active">
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#featured-work">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#connect">Connect</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
     <!-- Container to hold the main content -->
     <main class="container">
         <section class="row logo">
@@ -78,7 +79,7 @@
         </section>
         <div class="col-sm-12 logo-border">
         </div>
-        <section class="row" id="about">
+        <div class="row" id="about">
             <div class="col-sm-12">
                 <figure>
                     <img class="img-responsive center-block"
@@ -91,7 +92,7 @@
                          alt="Nature">
                 </figure>
             </div>
-        </section>
+        </div>
         <section class="row" id="featured-work">
             <div class="col-sm-12 text-center">
                 <h2>
@@ -108,7 +109,7 @@
                         <img class="img-responsive center-block"
                              src="images/camera-lens-900x600large.jpg"
                              sizes="(max-width: 767px) 100vw,
-                                    (max-width: 992px) 80vw
+                                    (max-width: 992px) 80vw,
                                     (max-width: 1199px) 50vw,
                                     (min-width: 1200px) 30vw"
                              srcset="images/camera-lens-300x200small.jpg 300w,
@@ -128,7 +129,7 @@
                         <img class="img-responsive center-block"
                              src="images/compass-900x600large.jpg"
                              sizes="(max-width: 767px) 100vw,
-                                    (max-width: 992px) 80vw
+                                    (max-width: 992px) 80vw,
                                     (max-width: 1199px) 50vw,
                                     (min-width: 1200px) 30vw"
                              srcset="images/compass-300x200small.jpg 300w,
@@ -149,7 +150,7 @@
                         <img class="img-responsive center-block"
                              src="images/dawn-900x600large.jpg"
                              sizes="(max-width: 767px) 100vw,
-                                    (max-width: 992px) 80vw
+                                    (max-width: 992px) 80vw,
                                     (max-width: 1199px) 50vw,
                                     (min-width: 1200px) 30vw"
                              srcset="images/dawn-300x200small.jpg 300w,
@@ -169,7 +170,7 @@
                         <img class="img-responsive center-block"
                              src="images/ipad-900x600large.jpg"
                              sizes="(max-width: 767px) 100vw,
-                                    (max-width: 992px) 80vw
+                                    (max-width: 992px) 80vw,
                                     (max-width: 1199px) 50vw,
                                     (min-width: 1200px) 30vw"
                              srcset="images/ipad-300x200small.jpg 300w,
@@ -190,7 +191,7 @@
                         <img class="img-responsive center-block"
                              src="images/seagulls-900x600large.jpg"
                              sizes="(max-width: 767px) 100vw,
-                                    (max-width: 992px) 80vw
+                                    (max-width: 992px) 80vw,
                                     (max-width: 1199px) 50vw,
                                     (min-width: 1200px) 30vw"
                              srcset="images/seagulls-300x200small.jpg 300w,
@@ -210,7 +211,7 @@
                         <img class="img-responsive center-block"
                              src="images/mockup-900x600large.jpg"
                              sizes="(max-width: 767px) 100vw,
-                                    (max-width: 992px) 80vw
+                                    (max-width: 992px) 80vw,
                                     (max-width: 1199px) 50vw,
                                     (min-width: 1200px) 30vw"
                              srcset="images/mockup-300x200small.jpg 300w,
